@@ -1,15 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    mustermann (1.0.2)
     persist (0.0.2)
-    rack (1.4.1)
-    rack-protection (1.2.0)
+    rack (2.0.4)
+    rack-protection (2.0.1)
       rack
-    sinatra (1.3.2)
-      rack (~> 1.3, >= 1.3.6)
-      rack-protection (~> 1.2)
-      tilt (~> 1.3, >= 1.3.3)
-    tilt (1.3.3)
+    sinatra (2.0.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.1)
+      tilt (~> 2.0)
+    tilt (2.0.8)
 
 PLATFORMS
   ruby
@@ -17,3 +19,6 @@ PLATFORMS
 DEPENDENCIES
   persist (= 0.0.2)
   sinatra
+
+BUNDLED WITH
+   1.16.1
